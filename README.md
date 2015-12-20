@@ -2,7 +2,7 @@
 
 Это перевод замечательной книги о Ember.js: ember-101.
 
-Оригинал книги вы можете скачать с сайта Leanpub 
+Оригинал книги вы можете скачать с сайта Leanpub, 
 перейдя на страницу [https://leanpub.com/ember-cli-101](https://leanpub.com/ember-cli-101).
 
 
