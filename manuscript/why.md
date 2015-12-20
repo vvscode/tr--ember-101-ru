@@ -1,42 +1,40 @@
-# Why Ember?
+# Почему Ember?
 
-Ember is an evolving JavaScript framework for creating "ambitious web
-application", it tries to maximize developers' productivity using a set
-of conventions in a way that they don't need to think about common
-idioms when building web applications.
+Ember - это развивающийся Javascript фреймворк для создания "чистолюбивых(??) веб приложений.
+Он старается сделать продуктивность разработчиков максимальной. Для этого он 
+использует набор соглашений так. чтобы можно было не думать об общих вопросах
+при разработке веб приложения.
 
-Using Ember in conjuntion with Ember CLI, allows you to reduce big
-amounts of glue code, given you the opportunity to focus on what is
-most important for you: building your application.
+Использование Ember вместе с Ember CLI позволяет уменьшить колличество инфраструктурного кода.
+И это дает вам возможность созредоточиться на самом важном - на создании
+вашего веб приложения.
 
-Glue code refers to those things that are not related to your
-application but that every project requires. For
-example, you need to test your code, compile your assets,
-serve your files in the browser, interact with a back-end API,
-perhaps use third party
-libraries, and so on. All those things can be automated and, as it is
-done in other frameworks, some conventions can provide a
-common ground to begin building your applications.
+Инфраструктурный код относится к тем вещам, которые непосредственно не решают задач
+вашего проекта, но которые необходимы для его работы.
+Например вам нужно тестировать ваш код, собирать ресурсы вашего приложения при сборке,
+дать доступ к файлам из браузера, взаимодествовать с вашим серверным API,
+возможно использовать сторонние библиотеки и т.д. Все эти вещи могут быть
+автоматизированы, как это делается в других фреймворках.  Но некоторые соглашения
+могут обеспечить вам общую площадку для построения вашего приложения.
 
-Having a tool that does that for you not only eases the process of
-writing your app but also saves you time and money (you
-don't have to think about problems that are already solved).
+Получив инструмент, который делает все это, вы не только облегчите процесс написания приложения,
+но так же сохраните свое время и деньги ( ведь вы больше можете не думать о 
+проблемах, которые уже решены ).
 
-`Ember CLI` aims to be exactly that tool. Thanks to `Broccoli`[^broccoli],
-waiting time is reduced while your assets compile. `QUnit`[^qunit] allows
-you to write tests, which can then be run with `Testem`[^testem].
-If you need to deploy your build to production, you'll get
-fingerprint, compression, and some other features for free.
+`Ember CLI` стремится быть именно таким инструментом. `Broccoli`[^broccoli],
+уменьшает время ожидания при сборке ресурсов. `QUnit`[^qunit] позволяет писать тесты.
+Написанные тесты могут быть запущены при помощи `Testem`[^testem].
+Если вам нужно развернуть на рабочем сервере вы получите версионирование, сжатие
+и некоторые другие плюшки бесплатно.
 
-`Ember CLI` also encourages the use of ES6(ECMAScript 6)[^ES6]. It
-provides built-in support for modules and integrates easily with other
-plugins, allowing you to write your applications using other ES6
-features.
+`Ember CLI` так же поощряет использовать новый стандарт ES6(ECMAScript 6)[^ES6]. 
+Он легко обеспечивает встроенную поддержку модулей и легко подключает сторонние
+модули, позволяя вам писать приложения используя другие особенности ES6.
 
-Next time you consider wasting your day wiring up all those things we
-just mentioned, consider `Ember CLI`. It will make your life easier
-and you will get support from a lot of smart people who are already
-using this tool.
+В следующий раз посчитайте сколько времени вы тартите каждый день на написание
+все этих вещей, а потом вспомните про `Ember CLI`. Он сделает вашу жизнь проще
+и вы сможете получить поддержку и помощь от многих умных людей, которые уже
+используют этот инструмент.
 
 [^ES6]: [https://people.mozilla.org/~jorendorff/es6-draft.html](https://people.mozilla.org/~jorendorff/es6-draft.html)
 [^broccoli]: [https://github.com/broccolijs/broccoli](https://github.com/broccolijs/broccoli)
